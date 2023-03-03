@@ -51,11 +51,10 @@ namespace Quest
 
                 Challenge favoriteBeatle = new Challenge(
                     @"Who's your favorite Beatle?
-    1) John
-    2) Paul
-    3) George
-    4) Ringo
-",
+                    1) John
+                    2) Paul
+                    3) George
+                    4) Ringo",
                     4,
                     20
                 );
@@ -114,7 +113,7 @@ namespace Quest
             // ask the user if they want to play again
             while (true)
             {
-                
+
                 prize.ShowPrize(theAdventurer);
                 Console.WriteLine();
                 Console.Write(

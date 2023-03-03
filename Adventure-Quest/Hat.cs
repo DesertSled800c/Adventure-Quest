@@ -7,6 +7,7 @@ namespace Quest
     {
         public int ShininessLevel { get; set; }
 
+// why is this a string?
         public string ShininessDescription
         {
             get
